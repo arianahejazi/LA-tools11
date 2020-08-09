@@ -28,13 +28,12 @@ body , *{
 }
 
 #content{
-  background: var(--light-gray)!important;
+  background: var(--light-gray-10)!important;
 }
 
 #puzzle{
   border-radius: 50px;
-  -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
   background-color: var(--white)!important;
   border: 1px solid var(--light-gray-10)!important;
 }
@@ -44,13 +43,16 @@ body , *{
   color: var(--light-black)!important;
   border: none !important;
   border-radius:20px 20px 0 0!important;
-  -webkit-box-shadow: none !important;
-          box-shadow: none !important;
+  box-shadow: none !important;
   padding: 20px !important;
   -webkit-border-radius:20px 20px 0 0!important;
   -moz-border-radius:20px 20px 0 0!important;
   -ms-border-radius:20px 20px 0 0!important;
   -o-border-radius:20px 20px 0 0!important;
+}
+
+#puzzle [onmousedown = 'mouseDown(event)'] {
+  border: 15px solid var(--white)!important;
 }
 
 /* meseage */
