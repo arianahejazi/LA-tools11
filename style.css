@@ -27,120 +27,28 @@ body , *{
   outline: none !important;
 }
 
-#mainpage{
-  background: var(--light-gray-10)!important;
+#content{
+  background: var(--light-gray)!important;
 }
 
-#progressbar{
-  border: 1px solid var(--light-gray)!important;
-  border-radius: 50px!important;
-  height: 25px!important;
-  margin-top: 20px!important;
+#puzzle{
+  border-radius: 50px;
+  box-shadow: none;
+  background-color: var(--white)!important;
+  border: 1px solid var(--light-gray-10)!important;
 }
-.progress-label {
-  color: var(--light-black)!important;
-  text-shadow: none!important;
-}
-.ui-progressbar .ui-progressbar-value{
+
+.selectedButton{
   background: var(--light-tifany)!important;
-  border: none!important;
-  -webkit-box-sizing: border-box!important;
-          box-sizing: border-box!important;
-  margin: 0!important;
-  padding: 0!important;
-  height: 60px;
-}
-
-.ui-field-contain label.ui-input-text{
-  margin: 0 10px!important;
-  background: transparent !important;
-}
-
-.ui-br {
-  border: none;
-}
-
-.ui-field-contain input.ui-input-text{
-  border-radius: 50px!important;
-  border: 1px solid var(--light-gray)!important;
-  padding-right: 15px!important;
-  padding-left: 15px!important;
-}
-
-
-.ui-shadow-inset {
-    -webkit-box-shadow: none!important;
-            box-shadow: none!important;
-}
-
-#page h3{
-  color: var(--light-black);
-}
-
-.feedbackText img{
-  display: none !important;
-}
-
-#fragen{
+  color: var(--light-black)!important;
   border: none !important;
-}
-
-.ui-btn-up-b{
-  border-radius: 50px!important;
-  border: 1px solid var(--light-gray)!important;
-  color: var(--white)!important;
-  background: var(--blue)!important;
-  -webkit-box-shadow: none!important;
-          box-shadow: none!important;
-}
-
-.ui-btn-hover-b{
-  border-radius: 50px!important;
-  border: 1px solid var(--light-gray)!important;
-  color: var(--white)!important;
-  background: var(--blue)!important;
-  -webkit-box-shadow: none!important;
-          box-shadow: none!important;
-  opacity: 0.5 !important;
-}
-
-.ui-btn-up-b:hover{
-  border-radius: 50px!important;
-  border: 1px solid var(--light-gray)!important;
-  color: var(--white)!important;
-  background: var(--blue)!important;
-  -webkit-box-shadow: none!important;
-          box-shadow: none!important;
-  opacity: 0.5 !important;
-}
-
-.ui-btn{
-  border: 1px solid var(--light-gray)!important;
-  -webkit-box-shadow: none!important;
-          box-shadow: none!important;
-}
-
-#feedbackText > span{
-  color: var(--red)!important;
-}
-
-
-/* check solve button */
-#checkSolutionBtn{
-  background: var(--light-green)!important;
-  color: var(--dark-green)!important;
-  padding: 21px 23px!important;
-  width: 80px!important;
-  height: 80px!important;
-  -webkit-box-shadow: none!important;
-          box-shadow: none!important;
-  font-size: 30px!important;
-  border: 2px solid var(--dark-green)!important;
-  margin: 5px 10px!important;
-}
-
-#checkSolutionBtn:hover{
-  opacity: 0.7!important;
+  border-radius:20px 20px 0 0!important;
+  box-shadow: none !important;
+  padding: 20px !important;
+  -webkit-border-radius:20px 20px 0 0!important;
+  -moz-border-radius:20px 20px 0 0!important;
+  -ms-border-radius:20px 20px 0 0!important;
+  -o-border-radius:20px 20px 0 0!important;
 }
 
 /* meseage */
