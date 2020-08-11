@@ -1,6 +1,7 @@
 :root {
   --tifany:#1DE9B6;
   --light-tifany: #B2DFDB;
+  --light-tifany-10:#e7fffd;
   --light-orange-10:#ffcd7b;
   --light-orange:#ffaa20;
   --orange:#ff9e00;
@@ -33,17 +34,26 @@ body , *{
 
 #puzzle{
   border-radius: 50px;
-  box-shadow: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
   background-color: var(--white)!important;
-  border: 1px solid var(--light-gray-10)!important;
+  border: 1px solid var(--light-gray)!important;
+}
+
+
+#puzzle [onmousedown = 'mouseDown(event)'] {
+  border: 15px solid var(--white)!important;
 }
 
 .selectedButton{
-  background: var(--light-tifany)!important;
+  background: var(--light-tifany-10) !important;
+  border-bottom: none !important;
+  border: 2px solid var(--tifany) !important;
   color: var(--light-black)!important;
   border: none !important;
   border-radius:20px 20px 0 0!important;
-  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
   padding: 20px !important;
   -webkit-border-radius:20px 20px 0 0!important;
   -moz-border-radius:20px 20px 0 0!important;
@@ -51,8 +61,45 @@ body , *{
   -o-border-radius:20px 20px 0 0!important;
 }
 
-#puzzle [onmousedown = 'mouseDown(event)'] {
-  border: 15px solid var(--white)!important;
+
+.selectedButton:hover {
+  background: var(--light-tifany-10) !important;
+  border-bottom: none !important;
+  border: 2px solid var(--tifany) !important;
+  color: var(--light-black)!important;
+}
+
+.btnlink{
+  color: var(--light-black)!important;
+  border: 1px solid var(--light-gray) !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  padding: 20px !important; 
+}
+
+.btnlink:hover {
+  background: var(--light-tifany-10) !important;
+  border-bottom: none !important;
+  border: 2px solid var(--tifany) !important;
+  color: var(--light-black)!important;
+}
+
+#messagePanel{
+  background: var(--white) !important;
+  padding: 80px!important;
+  border:none!important;
+  font-size: 18px!important;
+}
+
+#messagePanel .btnlink {
+  font-size: 120%!important;
+  width: 100%!important;
+  margin: 25px 0 0!important;
+  padding: 5px!important;
+  border: none!important;
+  color: var(--white)!important;
+  background: var(--blue)!important;
+  border-radius: 50px !important;
 }
 
 /* meseage */
