@@ -59,14 +59,6 @@ body , *{
   -o-border-radius:20px 20px 0 0!important;
 }
 
-
-.selectedButton:hover {
-  background: var(--light-tifany-10) !important;
-  border-bottom: none !important;
-  border: 2px solid var(--tifany);
-  color: var(--light-black)!important;
-}
-
 .btnlink{
   color: var(--light-black)!important;
   border: 1px solid var(--light-gray);
