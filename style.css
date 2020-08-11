@@ -55,9 +55,23 @@ body , *{
 }
 
 .selectedButton:hover {
-  color: var(--light-black)!important;
-  border: 2px solid var(--tifany) !important;
   background: var(--light-tifany-10) !important;
+  border-bottom: none !important;
+  border: 2px solid var(--tifany) !important;
+  color: var(--light-black)!important;
+  border-radius:20px 20px 0 0!important;
+  padding: 20px !important;
+  box-shadow: 0px 0px 0px 3px var(--tifany) !important; 
+}
+
+
+.btnlink:hover {
+  color: var(--light-black)!important;
+  border: 1px solid var(--light-gray)!important; 
+  box-shadow: none !important; 
+  padding: 20px !important; 
+  background-color: var(--white);
+  border-radius:20px 20px 0 0!important;
 }
 
 .btnlink{
@@ -86,6 +100,7 @@ body , *{
   background: var(--blue)!important;
   border-radius: 50px !important;
 }
+
 
 /* meseage */
 #AppClientTaskPanel{
