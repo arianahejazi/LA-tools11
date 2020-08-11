@@ -69,7 +69,7 @@ body , *{
 
 .btnlink{
   color: var(--light-black)!important;
-  border: 1px solid var(--light-gray) !important;
+  border: 1px solid var(--light-gray);
   box-shadow: none !important;
   padding: 20px !important; 
   background-color: var(--white)!important;
