@@ -48,16 +48,9 @@ body , *{
   background: var(--light-tifany-10) !important;
   border-bottom: none !important;
   border: 2px solid var(--tifany) !important;
-  box-shadow: 0px 0px 0px 3px var(--tifany) !important;
   color: var(--light-black)!important;
-  border: none !important;
   border-radius:20px 20px 0 0!important;
-  box-shadow: 
   padding: 20px !important;
-  -webkit-border-radius:20px 20px 0 0!important;
-  -moz-border-radius:20px 20px 0 0!important;
-  -ms-border-radius:20px 20px 0 0!important;
-  -o-border-radius:20px 20px 0 0!important;
   box-shadow: 0px 0px 0px 3px var(--light-tifany) !important; 
 }
 
