@@ -34,8 +34,7 @@ body , *{
 
 #puzzle{
   border-radius: 50px;
-  -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
   background-color: var(--white)!important;
   border: 1px solid var(--light-gray)!important;
 }
@@ -52,8 +51,7 @@ body , *{
   color: var(--light-black)!important;
   border: none !important;
   border-radius:20px 20px 0 0!important;
-  -webkit-box-shadow: none !important;
-          box-shadow: none !important;
+  box-shadow: none !important;
   padding: 20px !important;
   -webkit-border-radius:20px 20px 0 0!important;
   -moz-border-radius:20px 20px 0 0!important;
@@ -72,9 +70,9 @@ body , *{
 .btnlink{
   color: var(--light-black)!important;
   border: 1px solid var(--light-gray) !important;
-  -webkit-box-shadow: none !important;
-          box-shadow: none !important;
+  box-shadow: none !important;
   padding: 20px !important; 
+  background-color: var(--white)!important;
 }
 
 .btnlink:hover {
