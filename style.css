@@ -68,12 +68,6 @@ body , *{
   border-radius:20px 20px 0 0!important;
 }
 
-.btnlink:hover {
-  background-color: var(--white);
-  border: 1px solid var(--light-gray) ;
-  color: var(--light-black);
-}
-
 #messagePanel{
   background: var(--white) !important;
   padding: 80px!important;
